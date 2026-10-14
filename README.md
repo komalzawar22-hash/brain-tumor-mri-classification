@@ -2,7 +2,7 @@
 
 Deep-learning classifier that sorts brain MRI slices into four classes: **glioma, meningioma, pituitary tumor, and no tumor**.
 
-> Educational / research project. It is **not** a medical device and must not be used for diagnosis.
+> Demo project for learning and portfolio purposes. It is **not** a medical device and must not be used for diagnosis.
 
 ## Approach
 - **Model:** VGG16 pre-trained on ImageNet used as a feature extractor, plus a small dense classification head
@@ -12,8 +12,7 @@ Deep-learning classifier that sorts brain MRI slices into four classes: **glioma
 - **Inference:** `predict_image()` helper gives the predicted class and confidence for one image
 
 ## Dataset
-A public brain-tumor MRI dataset with `Training/` and `Testing/` folders and one sub-folder per class (`glioma`, `meningioma`, `notumor`, `pituitary`).
-Dataset link: _add the Kaggle/source link here_
+The dataset is **not included** in this repository. The notebook works with any public dataset arranged in the folder layout below (one sub-folder per class); use a dataset whose licence allows your use.
 
 Expected layout:
 ```
